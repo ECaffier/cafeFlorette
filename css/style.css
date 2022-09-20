@@ -1,0 +1,40 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+html,
+body{
+    font-family: "Open sans", sans-serif;
+}
+
+h1,
+h2,
+h3{
+    margin-bottom: 20px;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.header{
+    background:#333;
+}
+
+.header nav h1{
+    float: left;
+}
+
+.header nav ul{
+    float:right;
+}
